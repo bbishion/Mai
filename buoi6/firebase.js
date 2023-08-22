@@ -1,4 +1,4 @@
-import { auth, dangnhap } from './dangnhap.js'
+import { auth, dangnhap } from './firebaseConfig.js'
 
 let email = document.querySelector('#form3Example3')
 let password = document.querySelector('#form3Example4')
