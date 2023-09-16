@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 90px;
+    background-color: #DFCCFB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.header-top {
+    font-size: 20px;
+    /* margin-right: 5%; */
+}
+
+.body-item {
+    width: cacl(10%-10px);
+    margin: 0 8px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.body-item-browse {
+    width: cacl(10%-10px);
+    margin: 0 8px;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.body-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+
+}
+
+.body-list1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+
+}
+
+.header-seachr input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    /* font-size: 25px; */
+    margin-left: 20px;
+}
+
+.header-seachr i {
+    font-size: 24px;
+    margin-left: 10px;
+
+}
+
+.header-account {
+    display: flex;
+    font-size: 10px;
+}
+
+.header.account i {
+    font-size: 20px;
+
+}
+
+.header.account p {
+    padding: 1px;
+
+}
+
+.SignIn {
+    color: aliceblue;
+    margin-left: 20px;
+    font-size: 25px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.Login {
+    font-style: rgb(0, 0, 0);
+    margin-left: 20px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.header-seachr {
+    height: 36px;
+    background-color: white;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.body-wrapper h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 10px;
+}
+
+#header .header-category {
+    font-size: 24px;
+    margin-right: 10%;
+}

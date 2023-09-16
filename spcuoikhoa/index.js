@@ -1,8 +1,9 @@
 const getAPI = async () => {
-    const url = 'https://myanimelist.p.rapidapi.com/anime/1535'; const options = {
+    const url = 'https://myanimelist.p.rapidapi.com/anime/1535';
+    const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '1677229fb9msh555db19db40db19p13b67ajsn75df7029ffb0',
+            'X-RapidAPI-Key': '663d4dfc19msh9863da2cdbfe9f8p1bc40ejsn841044d3d8d0',
             'X-RapidAPI-Host': 'myanimelist.p.rapidapi.com'
         }
     };
